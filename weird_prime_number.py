@@ -1,5 +1,9 @@
 import time
-
+"""
+git avaiable
+baekjoon prob
+ps 1st
+"""
 def check_pn(a):
     A=a
     cn=3
@@ -24,7 +28,7 @@ def make_prime(a,n):
             if(check_pn(num)):
                 make_prime(num,n-1)
 start=time.time()
-fn=[2,3,5,7]
+fn=[2,3,5,7] 
 N=int(input())
 for i in range(len(fn)):
     make_prime(fn[i],N)
